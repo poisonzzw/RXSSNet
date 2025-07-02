@@ -1,25 +1,8 @@
 # RXSSNet
-# MS-IRTNet
-The code of paper 'MS-IRTNet: Multi-Stage Information Interaction Network for RGB-T Semantic Segmentation'. 
+The code of paper 'A Novel RGB-X Semantic Segmentation Network With Cross-Modal Feature Reweighting and Local-Global Feature Aggregation'. 
 
 # Abstract
-The complementary information from RGB and thermal images can remarkably boost semantic
-segmentation performance. Existing RGB-T segmentation methods usually use simple interaction
-strategies to extract complementary information from RGB and thermal images, which ignores
-recognizability features from different imaging mechanisms. To address these problems, we
-propose a multistage information interaction network for RGB-T semantic segmentation called
-MS-IRTNet. MS-IRTNet has a dual-stream encoder structure that can extract multistage feature
-information. To better interact with multimodal information, we design a gate-weighted
-interaction module (GWIM) and a feature information interaction module (FIIM). GWIM can
-learn multimodal information weights in different channels, while FIIM integrates and fuses
-weighted RGB and thermal information into a single feature map. Finally, multistage interactive
-information is fed into the decoder for semantic prediction. Our method achieves 60.5 mIoU on
-the MFNet dataset, outperforming state-of-the-art methods. Notably, MS-IRTNet also achieved
-state-of-the-art results in tests of daytime images (51.7 mIoU) and nighttime images (62.5 mIoU).
-The code and pre-trained models are available at https://github.com/poisonzzw/MS-IRTNet.
-
-# Requirements
-CUDA 11.2，torchvision 0.13.1，Tensorboard 2.9.0，Python 3.9，PyTorch 1.12.1。
+Existing multimodal semantic segmentation methods show significant progress in fusing information from RGB and other specific image types (such as Thermal images). However, these methods often exhibit limited generalization performance when applied to more general RGB-X semantic segmentation tasks. To address this challenge, we propose a novel RGB-X semantic segmentation network that can be generalized well to different cross-modal sensor combinations such as RGB-Thermal, RGB-Depth or RGB-Polarization. In order to ensure that the proposed algorithm can adapt to the fusion of different cross-modal data types, a Cross-Modal Feature Reweighting Module is proposed to adaptively reassign weights to cross-modal features by calculating the cosine similarity of RGB and X feature information. Next, the weighted RGB and X features are fed into the Local-Global Feature Aggregation Module (LAM) for local interaction and fusion. To understand the contextual information more comprehensively, we add Cross-modal Global Prior Information to LAM as a supplement to achieve more robust information fusion. Finally, this paper proposes a Progressive Linear Projection Decoder to improve the segmentation performance through stepwise decoding. Extensive experiments on six multimodal semantic segmentation datasets demonstrate the proposed algorithm's effectiveness and generalization ability, with state-of-the-art results on the MFNet, PST900, FMB, Cityscapes and ZJU datasets. The source code of the algorithm will be made available at https://github.com/poisonzzw/RXSSNet for public access.
 
 # Dataset
 The MFNet datesets for RGB-T semantic segmentation could be found in [here](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/)。
@@ -41,16 +24,7 @@ Model weights download：[百度网盘](https://pan.baidu.com/s/1jhBzhxnfD2_oOhn
 
 
 
-# Citation
-@article{zhang2023ms,
-  title={MS-IRTNet: Multistage information interaction network for RGB-T semantic segmentation},
-  author={Zhang, Zhiwei and Liu, Yisha and Xue, Weimin},
-  journal={Information Sciences},
-  volume={647},
-  pages={119442},
-  year={2023},
-  publisher={Elsevier}
-}
+
 
 # Contact
-Please drop me an email for further problems or discussion: 1519968317@qq.com
+Please drop me an email for further problems or discussion: zhangzhiwei@mail.dlut.edu.cn
