@@ -6,6 +6,7 @@ Existing multimodal semantic segmentation methods show significant progress in f
 
 # Dataset
 The MFNet datesets for RGB-T semantic segmentation could be found in [here](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/)。
+The PST900 datesets for RGB-T semantic segmentation could be found in [here](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/)。
 
 # Result
 Predict maps: [百度网盘](https://pan.baidu.com/s/1T4J-iTgW7nBZWcCTmNsIBQ).
