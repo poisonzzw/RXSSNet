@@ -6,13 +6,12 @@ Existing multimodal semantic segmentation methods show significant progress in f
 
 # Dataset
 The MFNet datesets for RGB-T semantic segmentation could be found in [here](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/)。
-The Data.Dataloader_voxel file consists of two parts: data import and data augmentation, which can be written by the reader. Since the research group currently has a paper under review, if it is accepted, we will upload the file immediately.
 
 # Result
 Predict maps: [百度网盘](https://pan.baidu.com/s/1T4J-iTgW7nBZWcCTmNsIBQ).
 提取码rd60。
 
-# train
+# pretrained weight
 Download the pretrained ConvNext V2 - tiny here [pretrained ConvNext V2](https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_tiny_22k_384_ema.pt).
 
 
