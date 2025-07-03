@@ -15,10 +15,15 @@ The ZJU datesets for RGB-P semantic segmentation could be found in [here](https:
 # Implementation details
 1. We have tested the following versions of OS and softwares:
 • OS: Windows 11
-• CUDA: 112.6
-• PyTorch 1.12.1
-• Python 3.9
-2. Install all dependencies. Install pytorch, cuda and cudnn, then install other dependencies via:
+
+• CUDA: 112.6  
+
+• PyTorch 1.12.1  
+
+• Python 3.9  
+
+3. Install all dependencies. Install pytorch, cuda and cudnn, then install other dependencies via:
+
    pip install -r requirements.txt
 
 # Result
