@@ -34,14 +34,8 @@ Download the pretrained ConvNext V2 - tiny here [pretrained ConvNext V2](https:/
 RXSSNet's model weights on six datasets can be downloaded here. [Result weight](https://pan.baidu.com/s/1_1m1YiBUoR3nXqSGU_st_A). 提取码: s8q8
 
 
-# test 
-在Train.py文件中注释train代码部分，运行test部分，导入保存的整体模型即可。
-Model weights download：[百度网盘](https://pan.baidu.com/s/1jhBzhxnfD2_oOhnnTF0zCQ).
-提取码zk9s。
-
-
-
-
+# Evaluation
+Download the corresponding dataset and weight file, modify the corresponding path, and run the test.py.
 
 # Contact
 Please drop me an email for further problems or discussion: zhangzhiwei@mail.dlut.edu.cn
