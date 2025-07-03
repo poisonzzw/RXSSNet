@@ -28,7 +28,7 @@ The ZJU datesets for RGB-P semantic segmentation could be found in [here](https:
    pip install -r requirements.txt
 
 # Pretrained model weight
-Download the pretrained ConvNext V2 - tiny here [pretrained ConvNext V2](https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_tiny_22k_384_ema.pt).
+Download the pretrained ConvNext V2 - tiny here. [pretrained ConvNext V2](https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_tiny_22k_384_ema.pt).
 
 # Result weight
 RXSSNet's model weights on six datasets can be downloaded here. [Result weight](https://pan.baidu.com/s/1_1m1YiBUoR3nXqSGU_st_A). 提取码: s8q8
